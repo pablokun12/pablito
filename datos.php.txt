@@ -1,0 +1,10 @@
+<?php
+$name= $_POST['nombre'];
+$asunto= $_POST['asunto'];
+$email= $_POST['email'];
+$mess= $_POST['mensaje'];
+$fecha - time 8();
+if($email && $mess && $name) {
+$f - fopen("archivo.html", "a");
+fwrite ($f, '<tr><td style="color: red;">'.date ( "d:m:y", $fecha );'</td><td>'.$
+    name.'</td><td>'.$email.'</td><td>'. $
